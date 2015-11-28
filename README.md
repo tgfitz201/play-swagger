@@ -81,7 +81,7 @@ add Swagger API dependency to your sbt
 ```scala
 resolvers += Resolver.jcenterRepo
 
-libraryDependencies +=  "com.iheart" %% "play-swagger" % "0.1.8"
+libraryDependencies +=  "com.iheart" %% "play-swagger" % "0.1.9"
 ```
 
 #### Step 2
@@ -176,7 +176,7 @@ Code contribution are more than welcome. Make sure that your code is tested and 
 ## FAQ
 
 #### How to override?
-To override any of the automatically generated field, you just need to write the same part in your comment or base swagger sepc file. 
+To override any of the automatically generated field, you just need to write the same part in your comment or base swagger spec file. 
 
 #### How to hide an endpoint?
 If you don't want an end point to be included, add `### NoDocs ###` in front of it 
